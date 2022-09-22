@@ -3,7 +3,7 @@ pipeline {
 
     stages {
         
-        stage('Building') {
+        stage('Building for Demo') {
             steps {
                 echo 'The Code will be now be built into an artifact'
             }
